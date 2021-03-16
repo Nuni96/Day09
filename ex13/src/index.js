@@ -1,0 +1,16 @@
+function inverseWhile() {
+    var fiveNumbers = "";
+    var i = 5;
+    while (i >= 0){
+        if(i > 0){
+            fiveNumbers += i.toString() + ",";
+        }else if (i == 0){
+            fiveNumbers += i.toString();
+        }
+        i--;
+    }
+    return fiveNumbers;
+}
+
+console.log(inverseWhile());
+module.exports = inverseWhile;
