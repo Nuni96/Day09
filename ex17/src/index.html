@@ -1,0 +1,53 @@
+<h2>CatPhotoApp</h2>
+
+<main>
+  <a href="#">
+    <img src="https://bit.ly/3fUJAV1" alt="Cat sitting on a branch" />
+  </a>
+
+  <p>
+    Kitty ipsum dolor sit amet, shed everywhere shed everywhere streching attack
+    your ankles chase the red dot, hairball run catnip eat the grass sniff.
+  </p>
+
+  <h3>Things cats love:</h3>
+
+  <ul>
+    <li>Catnip</li>
+    <li>Backrubs</li>
+    <li>Fish</li>
+  </ul>
+
+  <h3>Top 3 things cats hate:</h3>
+
+  <ol>
+    <li>Water</li>
+    <li>Bellyrubs</li>
+    <li>Mouses</li>
+  </ol>
+
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required />
+    <!--When the submit button is pressed we get a pop out that says "Please fill out the form!", that happens due to the fact that input is requiered and we are not able to submit anything until we fill that input text box-->
+    <button type="submit">Submit</button>
+  </form>
+
+  <div>
+    <label for="inside">
+      <input type="radio" name="inside-outside" value="Inside" checked />inside
+    </label>
+    <label for="outside">
+      <input type="radio" name="inside-outside" value="Outside" />outside
+    </label>
+  </div>
+
+  <div>
+    <label for="Dog"> <input name="Animal"  type="checkbox" value="Dog" checked />Dog </label>
+    <label for="Cat"> <input name="Animal" type="checkbox" value="Cat" />Cat </label>
+    <label for="Hamster"> <input name="Animal" type="checkbox" value="Hamster" />Hamster </label>
+    <label for="Bird"> <input name="Animal" type="checkbox" value="Bird" />Bird </label>
+    <label for="Fish"> <input name="Animal" type="checkbox" value="Fish" />Fish </label>
+  </div>
+</main>
+
+<footer id="footer"></footer>
